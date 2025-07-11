@@ -1,0 +1,7 @@
+export const AUTHENTICATION_BACKEND_BASE_URL = import.meta.env
+  .VITE_AUTHENTICATION_BACKEND_BASE_URL;
+
+export const AUTH_COOKIE_NAME = import.meta.env.VITE_AUTH_COOKIE_NAME;
+
+export const AUTH_COOKIE_EXPIRATION_DAYS = import.meta.env
+  .VITE_AUTH_COOKIE_EXPIRATION_DAYS;

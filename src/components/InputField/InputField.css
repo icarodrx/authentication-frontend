@@ -1,0 +1,48 @@
+.input-group-div {
+  margin-top: 12px;
+  font-size: small;
+  font-weight: bold;
+  width: 100%;
+}
+
+.input-field-div {
+  background-color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 4px 0px;
+  padding-right: 40px;
+}
+
+.input-field {
+  width: 100%;
+  border: none;
+  padding: 10px 6px;
+  box-sizing: border-box;
+  flex-grow: 1;
+  font-family: "Outfit", sans-serif;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+.input-button-icon {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.input-button-icon img {
+  width: 20px;
+  height: 20px;
+}

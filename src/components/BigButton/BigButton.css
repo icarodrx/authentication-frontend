@@ -1,0 +1,19 @@
+.big-button {
+  background-color: oklch(54.6% 0.245 262.881);
+  border: transparent;
+  border-radius: 6px;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.big-button:hover {
+  background-color: oklch(58% 0.245 262.881);
+  cursor: pointer;
+}
+
+.big-button:disabled {
+  background-color: oklch(80% 0 0);
+  cursor: not-allowed;
+}

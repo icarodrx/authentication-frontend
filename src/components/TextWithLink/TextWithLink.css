@@ -1,0 +1,14 @@
+.text-with-link {
+  margin: 16px 0px 0px 0px;
+  text-align: center;
+}
+
+.text-link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: solid;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+.information-line {
+  display: flex;
+  padding: 20px 0px;
+  border-bottom: 1px solid lightgray;
+}
+
+.information-line-attribute {
+  width: 40%;
+  font-weight: bold;
+}
+
+.information-line-value {
+  flex-grow: 1;
+}
