@@ -43,6 +43,12 @@ input {
   width: 30%;
 }
 
+@media (max-width: 850px) {
+  .small-container {
+    width: 60%;
+  }
+}
+
 .big-container {
   width: 60%;
 }
